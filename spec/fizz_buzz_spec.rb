@@ -23,7 +23,7 @@ describe 'FizzBuzz' do
     it { should be_a String }
     it { should =~ /^1 2 Fizz 4 Buzz/ }
     it { should =~ /14 FizzBuzz 16/ }
-    it { should =~ /Buzz$/ }
+    it { should =~ /98 Fizz Buzz$/ }
   end
 
 end
